@@ -1,5 +1,6 @@
 {
 	"name": "mmo",
+	"source":"www/index.html",
 	"scripts": {
 		"build": "esbuild --bundle src/main.js --outfile=www/main.js --minify",
 		"dev": "esbuild --bundle src/main.js --outfile=www/main.js --servedir=www",
@@ -12,6 +13,7 @@
 		"socket.io-client": "^4.7.4"
 	},
 	"devDependencies": {
-		"esbuild": "^0.19.11"
+		"esbuild": "^0.19.11",
+		"parcel": "^2.11.0"
 	}
 }
